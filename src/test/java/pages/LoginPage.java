@@ -25,9 +25,9 @@ public class LoginPage extends BasePage {
 	}
 
 	public void clicarEm(String botao) {
-		aguarda(5000);
 		switch (botao) {
 		case "Cadastre-se":
+			aguarda(5000);
 			clicar(btnCadastrese);
 			break;
 		case "Entre":

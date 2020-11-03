@@ -10,8 +10,8 @@ Feature: Testes Funcionais Site Inmetrics
     Then o usuario sera direcionado para a pagina de Login
 
     Examples: 
-      | nome              | senha      |
-      | "TesteMateusNove" | "teste123" |
+      | nome                    | senha      |
+      | "TesteMateusVinteCinco" | "teste123" |
 
   @LoginUsuario
   Scenario Outline: Login de usuario

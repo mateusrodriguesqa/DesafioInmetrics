@@ -36,6 +36,7 @@ public class FuncionariosPage extends BasePage {
 	}
 
 	public void obterMsgSucesso() {
+		aguarda(2000);
 		String actualString = getDriver()
 				.findElement(By.xpath("//div[@class='alert alert-success alert-dismissible fade show']")).getText();
 		String expectedString = "SUCESSO";
@@ -44,6 +45,7 @@ public class FuncionariosPage extends BasePage {
 	}
 
 	public void obterMsgDeAlteracao() {
+		aguarda(2000);
 		String actualString = getDriver()
 				.findElement(By.xpath("//div[@class='alert alert-success alert-dismissible fade show']")).getText();
 		String expectedString = "atualizadas com sucesso";
@@ -52,6 +54,7 @@ public class FuncionariosPage extends BasePage {
 	}
 
 	public void obterMsgDeExclusao() {
+		aguarda(2000);
 		String actualString = getDriver()
 				.findElement(By.xpath("//div[@class='alert alert-success alert-dismissible fade show']")).getText();
 		String expectedString = "removido com sucesso";
