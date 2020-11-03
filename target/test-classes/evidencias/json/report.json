@@ -1,0 +1,532 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-03T00:13:50.339Z",
+        "line": 14,
+        "name": "Cadastrar usuario",
+        "description": "",
+        "id": "testes-funcionais-site-inmetrics;cadastrar-usuario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2583777400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAfter.screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9962730200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuario acesse o site Inmetrics",
+            "match": {
+              "location": "StepsInmetrics.queOUsuarioAcesseOSiteInmetrics()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8092367300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clique em \"Cadastre-se\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cadastre-se\"",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsInmetrics.cliqueEm(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 383668000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "insira o nome \"TesteMateusSete\" e senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TesteMateusSete\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepsInmetrics.insiraONomeESenha(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2475863800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clique em Cadastrar",
+            "match": {
+              "location": "StepsInmetrics.cliqueEmCadastrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56982300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuario sera direcionado para a pagina de Login",
+            "match": {
+              "location": "StepsInmetrics.oUsuarioSeraDirecionadoParaAPaginaDeLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestesInmetrics"
+          },
+          {
+            "name": "@CadastrarUsuario"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-03T00:14:13.962Z",
+        "line": 25,
+        "name": "Login de usuario",
+        "description": "",
+        "id": "testes-funcionais-site-inmetrics;login-de-usuario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3857139300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAfter.screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18189100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "que o usuario acesse o site Inmetrics",
+            "match": {
+              "location": "StepsInmetrics.queOUsuarioAcesseOSiteInmetrics()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5265511100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "insira os dados de usuario \"TesteMateusCinco\" e senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TesteMateusCinco\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 54
+                }
+              ],
+              "location": "StepsInmetrics.insiraOsDadosDeUsuarioESenha(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37089109300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clique em \"Entre\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Entre\"",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsInmetrics.cliqueEm(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33199000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "o usuario sera direcionado para a pagina de Funcionarios",
+            "match": {
+              "location": "StepsInmetrics.oUsuarioSeraDirecionadoParaAPaginaDeFuncionarios()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestesInmetrics"
+          },
+          {
+            "name": "@LoginUsuario"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-03T00:15:00.227Z",
+        "line": 39,
+        "name": "Cadastrar funcionario",
+        "description": "",
+        "id": "testes-funcionais-site-inmetrics;cadastrar-funcionario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3923105800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAfter.screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 898247300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "que o usuario acesse o site Inmetrics",
+            "match": {
+              "location": "StepsInmetrics.queOUsuarioAcesseOSiteInmetrics()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5258412800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "insira os dados de usuario \"TesteMateusCinco\" e senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TesteMateusCinco\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 54
+                }
+              ],
+              "location": "StepsInmetrics.insiraOsDadosDeUsuarioESenha(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35132291000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clique em \"Entre\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Entre\"",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsInmetrics.cliqueEm(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1650713800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "clique em Novo Funcionario",
+            "match": {
+              "location": "StepsInmetrics.cliqueEmNovoFuncionario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3342951000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "insira os dados para cadastro",
+            "match": {
+              "location": "StepsInmetrics.insiraOsDadosParaCadastro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29360219600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "clique em Enviar",
+            "match": {
+              "location": "StepsInmetrics.cliqueEmEnviar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87808600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "o usuario sera cadastrado com sucesso",
+            "match": {
+              "location": "StepsInmetrics.oUsuarioSeraCadastradoComSucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestesInmetrics"
+          },
+          {
+            "name": "@CadastrarFuncionario"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-03T00:16:19.885Z",
+        "line": 42,
+        "name": "Editar funcionario",
+        "description": "",
+        "id": "testes-funcionais-site-inmetrics;editar-funcionario",
+        "after": [
+          {
+            "result": {
+              "duration": 3778527600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAfter.screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30858200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "que o usuario esteja na pagina de Funcionarios",
+            "match": {
+              "location": "StepsInmetrics.queOUsuarioEstejaNaPaginaDeFuncionarios()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 579034200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "insira o nome do funcionario cadastrado no campo de pesquisa",
+            "match": {
+              "location": "StepsInmetrics.insiraONomeDoFuncionarioCadastradoNoCampoDePesquisa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1584617800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "clique no botao Editar",
+            "match": {
+              "location": "StepsInmetrics.cliqueNoBotaoEditar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 344977700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "realize uma alteracao",
+            "match": {
+              "location": "StepsInmetrics.realizeUmaAlteracao()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30704210300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "clique em Enviar",
+            "match": {
+              "location": "StepsInmetrics.cliqueEmEnviar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45532600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "a alteracao sera enviada com sucesso",
+            "match": {
+              "location": "StepsInmetrics.aAlteracaoSeraEnviadaComSucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestesInmetrics"
+          },
+          {
+            "name": "@EditarFuncionario"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-03T00:16:56.956Z",
+        "line": 51,
+        "name": "Excluir funcionario",
+        "description": "",
+        "id": "testes-funcionais-site-inmetrics;excluir-funcionario",
+        "after": [
+          {
+            "result": {
+              "duration": 3781892400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAfter.screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31468300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "que o usuario esteja na pagina de Funcionarios",
+            "match": {
+              "location": "StepsInmetrics.queOUsuarioEstejaNaPaginaDeFuncionarios()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 452377600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "insira o nome do funcionario cadastrado no campo de pesquisa",
+            "match": {
+              "location": "StepsInmetrics.insiraONomeDoFuncionarioCadastradoNoCampoDePesquisa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155207100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "clique no botao Excluir",
+            "match": {
+              "location": "StepsInmetrics.cliqueNoBotaoExcluir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28862050700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "o funcionario sera excluido com sucesso",
+            "match": {
+              "location": "StepsInmetrics.oFuncionarioSeraExcluidoComSucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestesInmetrics"
+          },
+          {
+            "name": "@ExcluirFuncionario"
+          }
+        ]
+      }
+    ],
+    "name": "Testes Funcionais Site Inmetrics",
+    "description": "",
+    "id": "testes-funcionais-site-inmetrics",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SiteInmetrics.feature",
+    "tags": [
+      {
+        "name": "@TestesInmetrics",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
