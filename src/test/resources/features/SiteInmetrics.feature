@@ -11,7 +11,7 @@ Feature: Testes Funcionais Site Inmetrics
 
     Examples: 
       | nome              | senha      |
-      | "TesteMateusOito" | "teste123" |
+      | "TesteMateusNove" | "teste123" |
 
   @LoginUsuario
   Scenario Outline: Login de usuario
