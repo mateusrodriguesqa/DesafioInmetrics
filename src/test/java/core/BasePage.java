@@ -1,6 +1,6 @@
-package core;
+package test.java.core;
 
-import static core.DriverFactory.getDriver;
+import static test.java.core.DriverFactory.getDriver;
 
 import java.util.Arrays;
 import java.util.List;

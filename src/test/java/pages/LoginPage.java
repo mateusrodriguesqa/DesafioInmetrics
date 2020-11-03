@@ -1,10 +1,10 @@
-package pages;
+package test.java.pages;
 
-import static core.DriverFactory.getDriver;
+import static test.java.core.DriverFactory.getDriver;
 
 import org.openqa.selenium.By;
 
-import core.BasePage;
+import test.java.core.BasePage;
 
 public class LoginPage extends BasePage {
 

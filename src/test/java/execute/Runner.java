@@ -1,4 +1,4 @@
-package execute;
+package test.java.execute;
 
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
-import utils.Utilitarios;
+import test.java.utils.Utilitarios;
 
 
 @RunWith(Cucumber.class)

@@ -1,6 +1,6 @@
-package utils;
+package test.java.utils;
 
-import static core.DriverFactory.getDriver;
+import static test.java.core.DriverFactory.getDriver;
 
 import java.io.File;
 import java.time.format.DateTimeFormatter;

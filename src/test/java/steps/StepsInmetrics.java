@@ -1,14 +1,14 @@
-package steps;
+package test.java.steps;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.CadastroPage;
-import pages.FuncionariosPage;
-import pages.LoginPage;
-import pages.NovoFuncionarioPage;
+import test.java.pages.CadastroPage;
+import test.java.pages.FuncionariosPage;
+import test.java.pages.LoginPage;
+import test.java.pages.NovoFuncionarioPage;
 
 public class StepsInmetrics {
 
